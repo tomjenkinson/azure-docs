@@ -31,7 +31,7 @@ The application is a stateful application that stores information in a HTTP Sess
 > [!NOTE]
 > Azure Red Hat OpenShift requires a minimum of 40 cores to create and run an OpenShift cluster. The default Azure resource quota for a new Azure subscription does not meet this requirement. To request an increase in your resource limit, see [Standard quota: Increase limits by VM series](../azure-portal/supportability/per-vm-quota-requests.md). Note that the free trial subscription isn't eligible for a quota increase, [upgrade to a Pay-As-You-Go subscription](../cost-management-billing/manage/upgrade-azure-subscription.md) before requesting a quota increase.
 
-1. Prepare a local machine with a Unix-like operating system installed (for example, Fedora, RHEL, macOS).
+1. Prepare a local machine with a Unix-like operating system that is supported by the various products installed (for example Red Hat Enterprise Linux 8 (latest update) in the case of EAP).
 1. Install a Java SE implementation (for example, [Oracle JDK 11](https://www.oracle.com/java/technologies/downloads/#java11)).
 1. Install [Maven](https://maven.apache.org/download.cgi) 3.6.3 or higher.
 1. Install [Docker](https://docs.docker.com/get-docker/) for your OS.
